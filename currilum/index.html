@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu curriculum</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--kit icone-->
+    <script src="https://kit.fontawesome.com/df85762e69.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/icone.svg" type="image/x-icon">
+
+    <style>
+        
+        #header {
+            background-color: rgb(75, 75, 74);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: "Hubballi", sans-serif;
+
+        }
+
+        #nameAndTitle {
+            background-color: white;
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+
+        #nameAndTitle h1,
+        h2 {
+            margin: 0;
+        }
+
+
+        h1,
+        h2,
+        h3 {
+            text-transform: uppercase;
+
+        }
+
+        #contact {
+            list-style-type: none;
+        }
+
+        #contact i {
+            width: 30px;
+            color: rgb(75, 75, 74);
+        }
+
+        #conteiner {
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-column-gap: 20px;
+        }
+
+        #sidebar,
+        #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
+        .card h3 {
+            font-family: "Hubballi", sans-serif;
+            font-weight: bold;
+        }
+
+        .card {
+            font-family: montserrat;
+            border: 1px solid #6c6b6b;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold; 
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="nameAndTitle">
+            <h1>wlisses sousa</h1>
+            <h2>programador full stack</h2>
+        </div>
+
+    </div>
+    <div id="conteiner">
+        <div id="sidebar">
+            <div class="card">
+                <h3>contato</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>wlisses549@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> 21 995094196</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Minas Gerais, MG</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript </li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Formação Acadêmica</h3>
+                <ul>
+                    <li>Desenvolvimento full stack</li>
+                    <li>Engenheiro de software</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>links</h3>
+                <ul id="links">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/ulisses-sousa-a5bba3206/"><i class="fa-brands fa-linkedin"></i> linkedin</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/wlisses_.sousa/"><i class="fa-brands fa-instagram"></i> instagram</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div id="content">
+            <div class="card">
+                <h3>sobre mim</h3>
+                <p>
+                    "Sou um desenvolvedor full stack com paixão por criar soluções web inovadoras. Meus projetos combinam habilidades sólidas em front-end e back-end, permitindo-me construir aplicações completas e eficientes do início ao fim. Tenho experiência em [listar as principais tecnologias, como React, Node.js, etc.] e estou sempre buscando novas oportunidades para aprender e crescer."
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Experiências Profissionais</h3>
+                <p>
+                    <b>Americanas - dez/20 a fer/22</b><br>
+                    desenvolvedor full stack
+                <ul>
+                    <li>Engenheiro senior de software</li>
+                    <li>Engenheiro pleno de software</li>
+                </ul>
+                </p>
+
+                <p>
+                    <b>Dinamica - dez/19 a nov/20</b><br>
+                    Analista de sistemas
+                <ul>
+                    <li>Engenheiro junior de software</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
